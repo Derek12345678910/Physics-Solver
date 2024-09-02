@@ -3,17 +3,24 @@
 
 #include <iostream>
 
-// libraries
+// STD libraries
+#include <cmath>
 #include <map>
 #include <string>
 #include <tuple>
+#include <limits>
+
+using namespace std;
 
 // functions
 
+// Input values
+void testValues(map <string, tuple <char, double>> &values);
+
 // check if the inputted values are solvable
-bool canSolve(map <char, tuple <char, double>> values);
+string canSolve(map <string, tuple <char, double>> &values);
 
 // solve given values
-double solve(char key, map <char, tuple <char, double>> values);
+bool solve(string key, map <string, tuple <char, double>> &values);
 
 #endif
