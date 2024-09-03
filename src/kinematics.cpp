@@ -254,7 +254,6 @@ void assignValues(string key, map<string, tuple<char, double>> &values, map<char
 
 bool solve(string key, map<string, tuple<char, double>> &values)
 {
-
     // do a solve for both sides
     if (key == "xy")
     {

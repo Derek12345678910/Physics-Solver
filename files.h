@@ -12,6 +12,9 @@
 
 using namespace std;
 
+// solving functions
+bool kinematics();
+
 // functions
 
 // Input values
